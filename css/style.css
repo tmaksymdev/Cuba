@@ -18,6 +18,21 @@ body {
    font-weight: 400;
 }
 
+.container {
+   max-width: 1200px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+.container-content {
+   max-width: 970px;
+   margin: 0 auto;
+}
+
+.section-line {
+   border-bottom: 1px solid rgba(208, 212, 216, .5);
+}
+
 .header__top {
    background-image: url(../images/top-bg.jpg);
    height: 100vh;
@@ -95,6 +110,52 @@ body {
 .menu__list-link:hover {
    color: #4E5665;
    border-bottom: 4px solid #ECB84C;
+}
+
+.reason {
+   padding: 80px 0 0;
+}
+
+.reason__title {
+   font-family: Georgia;
+   font-size: 32px;
+   text-align: center;
+   line-height: 38px;
+   color: #4E5665;
+   margin-bottom: 22px;
+}
+
+.reason__link {
+   text-align: right;
+}
+
+.reason__link a {
+   font-weight: 700;
+   color: #ECB84C;
+   margin-bottom: 36px;
+}
+
+.reason__statistics {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   padding-bottom: 80px;
+}
+
+.reason__statistics-num {
+   color: #4e5665;
+   margin-top: 33px;
+   font-size: 22px;
+   line-height: 30px;
+   font-weight: 700;
+}
+
+.reason__statistics-text {
+   font-size: 14px;
+   line-height: 17px;
+   color: #909090;
+   font-weight: 700;
 }
 
 
